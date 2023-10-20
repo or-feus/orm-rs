@@ -3,6 +3,7 @@ use diesel::prelude::*;
 use diesel_rs::*;
 use std::env::args;
 
+
 fn main() {
     use self::schema::posts::dsl::{posts, published};
 
